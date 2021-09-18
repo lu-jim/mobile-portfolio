@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  background-image: url(./resources/header-shapes\ mobile@2x.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+h1 {
+  color: #091e42;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: #7f8cff;
+}
+
+.flex-nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: baseline;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 1em;
+}
+
+.menu-item {
+  display: none;
+}
+
+.connect {
+  /* Body / 2 - Bolder */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  text-transform: uppercase;
+}
+
+p {
+  color: black;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.hamburger-menu {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.header {
+  max-width: 50vw;
+  min-width: 375px;
+}
