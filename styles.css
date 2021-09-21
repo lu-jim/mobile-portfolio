@@ -66,23 +66,16 @@ li {
   font-weight: 700;
 }
 
-.headerline {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  padding: 0;
-}
-
-.headline-content {
+.headline {
   background-image: url(./resources/header-shapes\ mobile@2x.svg);
-  background-size: cover;
+  background-size:cover ;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
 }
 
