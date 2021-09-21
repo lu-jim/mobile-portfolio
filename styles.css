@@ -73,7 +73,7 @@ li {
   padding: 0;
 }
 
-.content {
+.headline-content {
   background-image: url(./resources/header-shapes\ mobile@2x.svg);
   background-size: cover;
   display: flex;
