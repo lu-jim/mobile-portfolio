@@ -206,6 +206,53 @@ li {
   background-color: #5e6c84;
 }
 
+/* About */
+
+.about-section {
+  background: #fff;
+  border-radius: 0 6rem 0 0;
+  margin-top: 2em;
+}
+
+.resume {
+  margin-top: 0.5em;
+}
+
+.list-title {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.2em;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.sublist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.skill-list {
+  padding: 1rem 0 0 0;
+}
+
+.subitem {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 0.5em;
+  margin-bottom: 0.75em;
+  align-items: center;
+}
+
+.skill-logo {
+  height: 3em;
+  margin-right: 1em;
+}
+
 /* Desktop */
 
 @media all and (min-width: 60em) {
