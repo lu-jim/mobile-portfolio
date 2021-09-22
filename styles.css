@@ -24,7 +24,7 @@ li {
   line-height: 3.25rem;
   display: flex;
   color: #091e42;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 100%;
 }
 
@@ -32,7 +32,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 100vw;
+  background: #f7f7f9;
 }
 
 /* Header */
@@ -50,12 +51,16 @@ li {
 
 /* Flexbox nav */
 
+.header {
+  background: #fff;
+}
+
 .navbar {
   width: 100vw;
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  padding: 1em;
+  padding: 1.5em;
   align-items: baseline;
   justify-self: flex-start;
   color: #6070ff;
@@ -80,8 +85,14 @@ li {
   justify-content: center;
 }
 
+.headline-background {
+  background: #fff;
+  border-radius: 0 0 0 6rem;
+  margin-bottom: 2em;
+}
+
 .header-content {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .socials {
@@ -94,6 +105,105 @@ li {
 .hamburger-menu {
   font-size: 1.5em;
   color: #6070ff;
+}
+
+/* Works */
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+
+  /* justify-items: center; */
+}
+
+.hashtag-card {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 0;
+}
+
+.hashtag {
+  border-radius: 1rem;
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 0.4em;
+  margin: 0.5em 0.5em 0.5em 0;
+  font-weight: 500;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  border: 1px solid #dfe1e6;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  margin: 1rem;
+  max-width: calc(100vw - 2rem);
+}
+
+.project-image {
+  padding: 0 0 1rem 0;
+}
+
+.project-title {
+  color: #172b4d;
+}
+
+.card-categories {
+  padding: 0.5rem 0;
+}
+
+.main-category {
+  color: #344563;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sec-category {
+  color: #7a869a;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.counter-card {
+  margin: 0 0.5rem;
+}
+
+/* Buttons */
+
+.see-project {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  line-height: 1.5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+  border: 1px solid #396df2;
+  padding: 0.5rem;
+  align-self: start;
+}
+
+.see-project:hover {
+  color: #fff;
+  background-color: #396df2;
+  transition: 0.1s;
+}
+
+.see-project:active {
+  background-color: #2230d2;
+}
+
+.see-project:disabled {
+  color: #5e6c84;
+  background-color: #5e6c84;
 }
 
 /* Desktop */
