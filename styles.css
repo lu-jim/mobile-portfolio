@@ -380,6 +380,13 @@ textarea {
     justify-content: space-between;
   }
 
+  .menu-item {
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #344563;
+    font-weight: 500;
+  }
+
   .wrapper {
     min-width: 50rem;
     max-height: 100%;
