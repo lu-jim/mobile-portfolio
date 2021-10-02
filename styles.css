@@ -220,14 +220,14 @@ li {
 .about-section {
   background: #fff;
   border-radius: 0 6rem 0 0;
-  width: fit-content;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
 }
 
 .about-title {
-  margin: 5rem 0 0 0;
+  padding: 1rem 0;
 }
 
 .about-content {
@@ -273,6 +273,11 @@ li {
   height: 3em;
   margin-right: 1em;
   display: flex;
+}
+
+.about-info {
+  padding: 2rem;
+  margin: 1.5rem;
 }
 
 /* Contact form */
@@ -354,6 +359,10 @@ textarea {
   box-shadow: 1px 1px 1px #999;
 }
 
+.divider-desktop {
+  display: none;
+}
+
 /* Desktop */
 
 @media all and (min-width: 60em) {
@@ -361,11 +370,129 @@ textarea {
     display: none;
   }
 
+  .navbar {
+    padding: 2em 5em;
+  }
+
   .menu {
     display: flex;
+    width: 15vw;
+    justify-content: space-between;
   }
 
   .wrapper {
     min-width: 50rem;
+    max-height: 100%;
+  }
+
+  .headline {
+    background-image: url(./desktop-resources/Headerbg@2x.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 5em;
+  }
+
+  .card {
+    justify-content: stretch;
+  }
+
+  .card:hover {
+    border: solid 2px #a7aeff;
+  }
+
+  .card-2,
+  .card-4 {
+    flex-direction: row-reverse;
+  }
+
+  .card-1,
+  .card-3 {
+    flex-direction: row;
+  }
+
+  .project-image {
+    width: 50%;
+  }
+
+  .card-content {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hashtag-card {
+    padding: 2rem 0;
+  }
+
+  .about-section {
+    flex-direction: row;
+    justify-content: center;
+    padding: 9rem;
+  }
+
+  .contact-section {
+    background-image: url(./desktop-resources/contact-form-background-shapes@2x.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sublist {
+    flex-direction: row;
+  }
+
+  .subitem {
+    padding: 0.5rem 2rem 2rem 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0 1rem 1rem 0;
+    width: 7rem;
+  }
+
+  .about-title {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .about-info {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .about-content {
+    width: 50%;
+  }
+
+  .get-in-touch {
+    align-self: center;
+  }
+
+  .divider-mobile {
+    display: none;
+  }
+
+  .contact-content {
+    padding: 0 2rem;
+    margin: 0 1rem;
+  }
+
+  .divider-desktop {
+    display: flex;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .connect {
+    padding: 1rem 0;
+  }
+
+  input,
+  textarea {
+    border-radius: 0;
   }
 }
