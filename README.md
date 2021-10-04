@@ -2,7 +2,7 @@
 
 # Luis's portfolio
 
-> This project is part of a larger project to build a portfolio following a Figma template for both desktop and mobile. The purpose for this particular section is to create the skeleton for the mobile version
+> This project is part of a larger project to build a portfolio following a Figma template for both desktop and mobile. The purpose for this particular section is to create both the desktop and mobile versions.
 
 ![screenshot](./app_screenshot.png)
 
@@ -12,10 +12,12 @@ Additional description about the project and its features.
 
 - HTML&CSS
 - Flexbox
+- CSS Grid
 
+## Live Demo
+[Live Demo Link](https://lu-jim.github.io/mobile-portfolio/)
 
 ## Getting Started
-
 
 
 To get a local copy up and running follow these simple steps.
