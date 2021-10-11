@@ -507,32 +507,30 @@ textarea {
     border-radius: 0;
   }
 }
-/* Hamburger menu - Mobile */
 
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  background-color: #6070ff; /* Blue fallback color */
-  background-color: #6070ffe6; /* Blue w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  background-color: #6070ff; 
+  background-color: #6070ffe6;
+  overflow-x: hidden;
+  transition: 0.5s; 
   padding: 0;
 }
 
 .overlay-content {
   position: relative;
-  top: 10%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align:start; /* Centered text/links */
+  top: 10%; 
+  width: 100%; 
+  text-align:start;
   left: 2.5rem;
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-top: 30px; 
 }
-/* The navigation links inside the overlay */
+
 .overlay a {
   padding: 8px;
   text-decoration: none;
@@ -542,19 +540,19 @@ textarea {
   transition: 0.3s; /* Transition effects on hover (color) */
   font-weight: 500;
 }
-/* When you mouse over the navigation links, change their color */
+
 .overlay a:hover,
 .overlay a:focus {
   color: orange;
 }
-/* Position the close button (top right corner) */
+
 .overlay .closebtn {
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 60px;
 }
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
