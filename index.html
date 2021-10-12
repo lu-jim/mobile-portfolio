@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4PHNMQF4N"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'G-X4PHNMQF4N');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4PHNMQF4N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-X4PHNMQF4N');
+  </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,19 +18,22 @@
   <meta name="author" content="Luis Fernando Jimenez">
   <link rel="stylesheet" href="styles.css">
   <title>Luis's Portfolio</title>
+  <link rel="shortcut icon" type="image/png" href="./resources/favicon.png" />
+
 </head>
 
 <body>
   <div class="wrapper">
     <header class="header">
-      <nav class="navbar">
-        <a href="#" class="logo">My Logo</a>
-        <nav class="hamburger-menu"><a href="#">☰</a></nav>
-        <ul class="menu">
-          <li><a href="#" class="menu-item">Portfolio</a></li>
-          <li><a href="#" class="menu-item">About</a></li>
-          <li><a href="#" class="menu-item">Contact</a></li>
-        </ul>
+      <a href="#" class="logo">My Logo</a>
+      <span class="hamburger-menu" id="ham-button">☰</span>
+      <nav class="navbar overlay"  id="myNav">
+        <a href="javascript:void(0)" class="closebtn" id="close-btn">&times;</a>
+          <ul class="overlay-content">
+            <li><a href="#portfolio" class="menu-item">Portfolio</a></li>
+            <li><a href="#about" class="menu-item">About</a></li>
+            <li><a href="#contact" class="menu-item">Contact</a></li>
+          </ul>
       </nav>
     </header>
     <div class="headline-background">
@@ -61,7 +64,7 @@
     </div>
 
 
-    <section class="works">
+    <section class="works" id="portfolio">
       <article class="card card-1">
         <img src="./images/tonic1.png" alt="Tonic" class="project-image">
         <div class="card-content">
@@ -159,7 +162,7 @@
       </article>
     </section>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
       <div class="about-info">
         <h2 class="about-title title">
           About Myself
@@ -208,7 +211,7 @@
     </section>
   </div>
   <section class="contact-section">
-    <div class="contact-content">
+    <div class="contact-content"  id="contact">
       <h2 class="title contact-text contact-title">Contact me</h2>
       <p class="contact-text">If you have an application you are interested in developing, a feature that you need built
         or a project that needs coding. I’d love to help with it </p>
@@ -228,7 +231,6 @@
       </form>
     </div>
   </section>
-
+  <script src="./script.js"></script>
 </body>
-
 </html>
