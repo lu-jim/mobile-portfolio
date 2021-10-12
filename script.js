@@ -68,3 +68,21 @@ const project4 = {
 };
 
 const works = [project1, project2, project3, project4];
+
+function showWork() {
+  works.forEach(project => {
+    const cardDiv = document.createElement('div');
+    cardDiv.className = 'card';
+    const cardImg = document.createElement('img');
+    cardImg.className= 'project-image';
+    const cardContent = document.createElement('div');
+    cardContent.className = 'card-content';
+    const cardHeader = document.createElement('div');
+    cardHeader.className = 'card-headers';
+    const cardh3 = document.createElement('h3');
+    cardh3.textContent = 'h3';
+    const cardHeaderA = document.createElement('a');
+    cardHeaderA.className = 'project-title'; 
+
+  })
+}
