@@ -13,6 +13,7 @@ Additional description about the project and its features.
 - HTML&CSS
 - Flexbox
 - CSS Grid
+- Javascript
 
 ## Live Demo
 [Live Demo Link](https://lu-jim.github.io/mobile-portfolio/)

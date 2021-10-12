@@ -60,6 +60,7 @@ li {
   width: 100vw;
   justify-content: space-between;
   padding: 1.5rem;
+  align-items: baseline;
 }
 
 .navbar {
@@ -110,7 +111,7 @@ li {
 }
 
 .hamburger-menu {
-  font-size: 1.5em;
+  font-size: 1.75em;
   color: #6070ff;
 }
 
@@ -507,6 +508,7 @@ textarea {
   }
 }
 
+/* Dynamic menu */
 .overlay {
   height: 100%;
   width: 0;
@@ -527,16 +529,16 @@ textarea {
   width: 100%;
   text-align: start;
   left: 2.5rem;
-  margin-top: 30px;
+  margin-top: 1.85rem;
 }
 
 .overlay a {
-  padding: 8px;
+  padding: 0.5rem;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 2rem;
   color: #fff;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
+  display: block;
+  transition: 0.3s;
   font-weight: 500;
 }
 
@@ -547,19 +549,19 @@ textarea {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: 1.3rem;
+  right: 3rem;
+  font-size: 3.75rem;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 30rem) {
   .overlay a {
-    font-size: 20px;
+    font-size: 1.3rem;
   }
 
   .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+    font-size: 2.5rem;
+    top: 1rem;
+    right: 1.5rem;
   }
 }
