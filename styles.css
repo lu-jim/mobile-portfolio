@@ -410,6 +410,7 @@ textarea {
 
   .card {
     justify-content: stretch;
+    width: calc(80vw - 4rem);
   }
 
   .card:hover {
@@ -742,4 +743,14 @@ textarea {
     display: flex;
     justify-content: center;
   }
+}
+
+/* Visibility Toggle */
+.email-error {
+  color: #ffff;
+  padding: 0 1rem;
+  font-size: 1rem;
+  border: #f14241 solid 1px;
+  background-color: #f14241;
+  border-radius: 1rem;
 }
