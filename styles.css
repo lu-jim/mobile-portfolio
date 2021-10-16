@@ -746,11 +746,11 @@ textarea {
 }
 
 /* Visibility Toggle */
-.email-error{
+.email-error {
   color: #ffff;
   padding: 0 1rem;
-  font-size: 1;
-  border: #f14241, 1px;
-  background-color: #F14241;
+  font-size: 1rem;
+  border: #f14241 solid 1px;
+  background-color: #f14241;
   border-radius: 1rem;
 }
