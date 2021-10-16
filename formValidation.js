@@ -6,7 +6,8 @@ function createNode(type, nodeClass) {
 
 const formStatus = document.getElementById('fs-frm');
 const formEmail = document.getElementById('email-address');
-const alertLowercase = formEmail.appendChild(createNode('label', 'email-error'));
+const formButton = document.getElementById('form-submit-button');
+const alertLowercase = formButton.appendChild(createNode('label', 'email-error'));
 alertLowercase.innerHTML = 'Error: Please use lowercase letters for your email';
 
 formStatus.addEventListener('submit', (event) => {
@@ -14,7 +15,7 @@ formStatus.addEventListener('submit', (event) => {
   if (formEmail.value === formEmail.value.toLowerCase()) {
     formStatus.submit();
   } else {
-    const emailAlert = formEmail.insertAdjacentElement('afterend', createNode('p', 'email-error'));
+    const emailAlert = formButton.insertAdjacentElement('beforebegin', createNode('p', 'email-error'));
     emailAlert.innerHTML = 'Error: Please use lowercase letters for your email';
   }
 });
