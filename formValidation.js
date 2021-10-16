@@ -1,21 +1,12 @@
-function createNode(type, nodeClass) {
-  const node = document.createElement(type);
-  if (nodeClass) node.className = nodeClass;
-  return node;
-}
-
 const formStatus = document.getElementById('fs-frm');
 const formEmail = document.getElementById('email-address');
-const formButton = document.getElementById('form-submit-button');
-const alertLowercase = formButton.appendChild(createNode('label', 'email-error'));
-alertLowercase.innerHTML = 'Error: Please use lowercase letters for your email';
 
 formStatus.addEventListener('submit', (event) => {
   event.preventDefault();
+  document.getElementById('test-alert').innerHTML = '';
   if (formEmail.value === formEmail.value.toLowerCase()) {
     formStatus.submit();
   } else {
-    const emailAlert = formButton.insertAdjacentElement('beforebegin', createNode('p', 'email-error'));
-    emailAlert.innerHTML = 'Error: Please use lowercase letters for your email';
+    document.getElementById('test-alert').innerHTML = "<p class='email-error'> Error: Please use lowercase letters for your email</p>";
   }
 });
