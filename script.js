@@ -30,53 +30,51 @@ for (let index = 0; index < hamItem.length; index += 1) {
 }
 // Project strucuture
 const project1 = {
-  name: 'Tonic',
-  description:
-    'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  name: 'Buffalo Film Festival',
+  description: 'Capstone Project 01 for the Microverse program. Built for the Buffalo Film Festival 2021 held in NY',
   content:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the   content: relea ",
-  featuredImage: './desktop-resources/sn.png',
-  technologies: ['HTML', 'CSS', 'Javascript'],
-  liveVersionLink: '#',
-  sourceLink: '#',
-  tags: ['Canopy', 'Back-End Dev', 2015],
+  featuredImage: './images/biff-thumb-sq.png',
+  technologies: ['HTML', 'CSS', 'Bootstrap'],
+  liveVersionLink: 'https://lu-jim.github.io/capstone-01/views/index.html',
+  sourceLink: 'https://github.com/lu-jim/capstone-01',
+  tags: ['Microverse', 'Full-Stack Dev', '2021'],
 };
 
 const project2 = {
-  name: 'Multi-Post Stories',
-  description:
-    'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+  name: 'Leaderboard',
+  description: 'Leaderboard app that interacts with an API for the purpose of practicing async Javascript.',
   content:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the   content: relea ",
-  featuredImage: './desktop-resources/sn1.png',
-  technologies: ['HTML', 'Ruby on Rails', 'CSS', 'Javascript'],
+    'Leaderboard app that interacts with an API for the purpose of practicing async Javascript. It was built with vanilla JS, Webpack and has a testing suite built with Jest.',
+  featuredImage: './images/lead-thumb.png',
+  technologies: ['Javascript', 'Webpack', 'Jest'],
   liveVersionLink: '#',
-  sourceLink: '#',
-  tags: ['Facebook', 'Full Stack Dev', '2015'],
+  sourceLink: 'https://github.com/lu-jim/leaderboard',
+  tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
 const project3 = {
-  name: 'Facebook 360',
+  name: 'Math Magicians',
   description:
-    "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
   content:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the   content: relea ",
-  featuredImage: './desktop-resources/sn2.png',
-  technologies: ['HTML', 'Ruby on Rails', 'CSS', 'Javascript'],
-  liveVersionLink: '#',
-  sourceLink: '#',
-  tags: ['Facebook', 'Full Stack Dev', '2015'],
+    'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) built with React that allows users to:    Make simple calculations.    Read a random math-related quote.    Built With    - HTML&CSS    - Javascript    - React',
+  featuredImage: './images/mathmag-thumb-sq.png',
+  technologies: ['Javascript', 'React', 'Jest', 'Netlify'],
+  liveVersionLink: 'https://vigorous-kalam-1fde6b.netlify.app/',
+  sourceLink: 'https://github.com/lu-jim/math-magicians',
+  tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
 const project4 = {
-  name: 'Uber Navigation',
+  name: "Space Travelers' Hub",
   description:
-    'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    'App for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
   content:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the   content: relea ",
-  featuredImage: './desktop-resources/sn3.png',
-  technologies: ['HTML', 'Ruby on Rails', 'CSS', 'Javascript'],
-  liveVersionLink: '#',
-  sourceLink: '#',
-  tags: ['Facebook', 'Full Stack Dev', '2015'],
+    'App for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Built With    \n -Javascript    \n -React    \n -Redux    \n -Bootstrap',
+  featuredImage: './images/space-th-sq.png',
+  technologies: ['Javascript', 'Heroku', 'React', 'Redux'],
+  liveVersionLink: 'https://space-travel-hub.herokuapp.com',
+  sourceLink: 'https://github.com/lu-jim/space-hub',
+  tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
 
 const works = [project1, project2, project3, project4];
@@ -102,60 +100,36 @@ function showWork(referenceNode) {
   portfolio.id = 'portfolio';
   referenceNode.parentNode.insertBefore(portfolio, referenceNode);
   works.forEach((project) => {
-    const cardDiv = createNode(
-      'article',
-      `card card-${works.indexOf(project)}`,
-    );
+    const cardDiv = createNode('article', `card card-${works.indexOf(project)}`);
     portfolio.appendChild(cardDiv);
     const cardImg = cardDiv.appendChild(createNode('img', 'project-image'));
     cardImg.src = project.featuredImage;
     const cardContent = cardDiv.appendChild(createNode('div', 'card-content'));
-    const cardHeader = cardContent.appendChild(
-      createNode('div', 'card-headers'),
-    );
+    const cardHeader = cardContent.appendChild(createNode('div', 'card-headers'));
     const cardH2 = cardHeader.appendChild(createNode('h2'));
     cardH2.innerHTML = `<a href='#' class='project-title'>${project.name}</a>`;
-    const cardCategories = cardHeader.appendChild(
-      createNode('div', 'card-categories'),
-    );
-    const mainCategory = cardCategories.appendChild(
-      createNode('a', 'main-category'),
-    );
+    const cardCategories = cardHeader.appendChild(createNode('div', 'card-categories'));
+    const mainCategory = cardCategories.appendChild(createNode('a', 'main-category'));
     mainCategory.innerHTML = `<a href='#' class='main-category'>${project.tags[0]}</a>`;
-    const divider = cardCategories.appendChild(
-      createNode('img', 'counter-card'),
-    );
+    const divider = cardCategories.appendChild(createNode('img', 'counter-card'));
     divider.src = './resources/Counter.svg';
     divider.alt = 'counter';
-    const secCategory = cardCategories.appendChild(
-      createNode('a', 'sec-category'),
-    );
+    const secCategory = cardCategories.appendChild(createNode('a', 'sec-category'));
     secCategory.innerHTML = `<a href='#' class='sec-category'>${project.tags[1]}</a>`;
-    const divider2 = cardCategories.appendChild(
-      createNode('img', 'counter-card'),
-    );
+    const divider2 = cardCategories.appendChild(createNode('img', 'counter-card'));
     divider2.src = './resources/Counter.svg';
     divider2.alt = 'counter';
-    const secCategory1 = cardCategories.appendChild(
-      createNode('a', 'sec-category'),
-    );
+    const secCategory1 = cardCategories.appendChild(createNode('a', 'sec-category'));
     secCategory1.innerHTML = `<a href='#' class='sec-category'>${project.tags[2]}</a>`;
     const cardText = cardContent.appendChild(createNode('p'));
     cardText.innerHTML = project.description;
-    const hashtagCard = cardContent.appendChild(
-      createNode('ul', 'hashtag-card'),
-    );
+    const hashtagCard = cardContent.appendChild(createNode('ul', 'hashtag-card'));
     project.technologies.forEach((element) => {
       const argument = `<li><a href="#" class="hashtag">${element}</a></li>`;
       const currentTag = hashtagCard.appendChild(createNode('li', 'hashtag'));
       currentTag.innerHTML = argument;
     });
-    createButton(
-      'See Project',
-      cardContent,
-      'see-project',
-      `btn-modal-${works.indexOf(project)}`,
-    );
+    createButton('See Project', cardContent, 'see-project', `btn-modal-${works.indexOf(project)}`);
   });
 }
 
@@ -163,96 +137,52 @@ function showWork(referenceNode) {
 function createModal(project, modalId) {
   const newModal = createNode('div', 'modal');
   newModal.id = `modal-${modalId}`;
-  const modalContent = newModal.appendChild(
-    createNode('div', 'modal-content animation effects'),
-  );
+  const modalContent = newModal.appendChild(createNode('div', 'modal-content animation effects'));
   // Modal Header
-  const modalHeader = modalContent.appendChild(
-    createNode('div', 'modal-header'),
-  );
-  const modalHeaderLeft = modalHeader.appendChild(
-    createNode('div', 'modal-header-left'),
-  );
-  const modalHeaderRight = modalHeader.appendChild(
-    createNode('div', 'modal-header-right'),
-  );
-  const modalHeaderRightX = modalHeaderRight.appendChild(
-    createNode('span', 'close'),
-  );
+  const modalHeader = modalContent.appendChild(createNode('div', 'modal-header'));
+  const modalHeaderLeft = modalHeader.appendChild(createNode('div', 'modal-header-left'));
+  const modalHeaderRight = modalHeader.appendChild(createNode('div', 'modal-header-right'));
+  const modalHeaderRightX = modalHeaderRight.appendChild(createNode('span', 'close'));
   modalHeaderRightX.innerHTML = 'x';
   modalHeaderRightX.id = `modal-close-${modalId}`;
-  const modalHeaderLeftTitle = modalHeaderLeft.appendChild(
-    createNode('h2', 'modal-header-left-title'),
-  );
+  const modalHeaderLeftTitle = modalHeaderLeft.appendChild(createNode('h2', 'modal-header-left-title'));
   modalHeaderLeftTitle.innerHTML = project.name;
-  const modalHeaderLeftCategories = modalHeaderLeft.appendChild(
-    createNode('div', 'card-categories'),
-  );
-  const modalHeaderCategoryMain = modalHeaderLeftCategories.appendChild(
-    createNode('a', 'main-category'),
-  );
+  const modalHeaderLeftCategories = modalHeaderLeft.appendChild(createNode('div', 'card-categories'));
+  const modalHeaderCategoryMain = modalHeaderLeftCategories.appendChild(createNode('a', 'main-category'));
   const mainTag = project.tags[0];
   const secTag1 = project.tags[1];
   const secTag2 = project.tags[2];
   modalHeaderCategoryMain.innerHTML = mainTag;
-  const modalHeaderDivider = modalHeaderLeftCategories.appendChild(
-    createNode('img', 'counter-card'),
-  );
+  const modalHeaderDivider = modalHeaderLeftCategories.appendChild(createNode('img', 'counter-card'));
   modalHeaderDivider.src = './resources/Counter.svg';
   modalHeaderDivider.alt = 'counter';
-  const modalHeaderCategorySec = modalHeaderLeftCategories.appendChild(
-    createNode('a', 'sec-category'),
-  );
+  const modalHeaderCategorySec = modalHeaderLeftCategories.appendChild(createNode('a', 'sec-category'));
   modalHeaderCategorySec.innerHTML = secTag1;
-  const modalHeaderDivider2 = modalHeaderLeftCategories.appendChild(
-    createNode('img', 'counter-card'),
-  );
+  const modalHeaderDivider2 = modalHeaderLeftCategories.appendChild(createNode('img', 'counter-card'));
   modalHeaderDivider2.src = './resources/Counter.svg';
-  const modalHeaderCategorySec2 = modalHeaderLeftCategories.appendChild(
-    createNode('a', 'sec-category'),
-  );
+  const modalHeaderCategorySec2 = modalHeaderLeftCategories.appendChild(createNode('a', 'sec-category'));
   modalHeaderCategorySec2.innerHTML = secTag2;
 
   // Modal body
   const modalBody = modalContent.appendChild(createNode('div', 'modal-body'));
-  const modalImage = modalBody.appendChild(
-    createNode('img', 'project-image modal-image'),
-  );
+  const modalImage = modalBody.appendChild(createNode('img', 'project-image modal-image'));
   modalImage.src = project.featuredImage;
   const modalText = modalBody.appendChild(createNode('div', 'modal-text'));
-  const modalTextLeft = modalText.appendChild(
-    createNode('p', 'modal-text-left'),
-  );
+  const modalTextLeft = modalText.appendChild(createNode('p', 'modal-text-left'));
   modalTextLeft.innerHTML = project.content;
-  const modalTextRight = modalText.appendChild(
-    createNode('div', 'modal-text-right'),
-  );
-  const modalHashtag = modalTextRight.appendChild(
-    createNode('ul', 'hashtag-card hashtag-modal'),
-  );
+  const modalTextRight = modalText.appendChild(createNode('div', 'modal-text-right'));
+  const modalHashtag = modalTextRight.appendChild(createNode('ul', 'hashtag-card hashtag-modal'));
   project.technologies.forEach((element) => {
-    modalHashtag.appendChild(
-      createNode('li'),
-    ).innerHTML = `<a href="#" class="hashtag">${element}</a>`;
+    modalHashtag.appendChild(createNode('li')).innerHTML = `<a href="#" class="hashtag">${element}</a>`;
   });
   modalTextRight.appendChild(createNode('hr', 'modal-divider'));
-  const modalButtons = modalTextRight.appendChild(
-    createNode('div', 'modal-buttons'),
-  );
+  const modalButtons = modalTextRight.appendChild(createNode('div', 'modal-buttons'));
   const imageButton1Content = "See live <img class= 'image-button' src='./resources/seelive.svg'>";
-  createButton(
-    imageButton1Content,
-    modalButtons,
-    'see-project modal-button-inside',
-  );
+  createButton(imageButton1Content, modalButtons, 'see-project modal-button-inside');
   const imageButton2 = createNode('a', 'modal-button-image');
   imageButton2.src = './resources/gitblue.svg';
-  const imageButton2Content = "See Source <img class= 'image-button' src='./resources/gitblue.svg'>";
-  createButton(
-    imageButton2Content,
-    modalButtons,
-    'see-project modal-button-inside',
-  );
+  const imageButton2Content = `<a href="${project.sourceLink}">See Source</a> <img class= 'image-button' src='./resources/gitblue.svg'>`;
+  createButton(imageButton2Content, modalButtons, 'see-project modal-button-inside');
   document.body.appendChild(newModal);
 }
 
