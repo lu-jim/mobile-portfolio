@@ -158,6 +158,8 @@ li {
   padding: 0 0 1rem 0;
   display: flex;
   width: 75%;
+  border-radius: 0.5rem;
+  border: 1px solid #172b4d33;
 }
 
 .project-title {
@@ -275,6 +277,7 @@ li {
   border-radius: 0.5em;
   margin-bottom: 0.75em;
   align-items: center;
+  aspect-ratio: 16/9;
 }
 
 .skill-logo {
