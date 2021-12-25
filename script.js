@@ -61,7 +61,7 @@ const project3 = {
   featuredImage: './images/mathmag-thumb-sq.png',
   technologies: ['Javascript', 'React', 'Jest', 'Netlify'],
   liveVersionLink: 'https://vigorous-kalam-1fde6b.netlify.app/',
-  sourceLink: '#',
+  sourceLink: 'https://github.com/lu-jim/math-magicians',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
 const project4 = {
@@ -73,7 +73,7 @@ const project4 = {
   featuredImage: './images/space-th-sq.png',
   technologies: ['Javascript', 'Heroku', 'React', 'Redux'],
   liveVersionLink: 'https://space-travel-hub.herokuapp.com',
-  sourceLink: '#',
+  sourceLink: 'https://github.com/lu-jim/space-hub',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
 
