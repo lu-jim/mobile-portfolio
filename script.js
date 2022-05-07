@@ -29,19 +29,8 @@ for (let index = 0; index < hamItem.length; index += 1) {
   });
 }
 // Project strucuture
-const project1 = {
-  name: 'Buffalo Film Festival',
-  description: 'Capstone Project 01 for the Microverse program. Built for the Buffalo Film Festival 2021 held in NY',
-  content:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the   content: relea ",
-  featuredImage: './images/biff-thumb-sq.png',
-  technologies: ['HTML', 'CSS', 'Bootstrap'],
-  liveVersionLink: 'https://lu-jim.github.io/capstone-01/views/index.html',
-  sourceLink: 'https://github.com/lu-jim/capstone-01',
-  tags: ['Microverse', 'Full-Stack Dev', '2021'],
-};
 
-const project2 = {
+const project1 = {
   name: 'Leaderboard',
   description: 'Leaderboard app that interacts with an API for the purpose of practicing async Javascript.',
   content:
@@ -52,7 +41,7 @@ const project2 = {
   sourceLink: 'https://github.com/lu-jim/leaderboard',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
-const project3 = {
+const project2 = {
   name: 'Math Magicians',
   description:
     'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
@@ -64,7 +53,7 @@ const project3 = {
   sourceLink: 'https://github.com/lu-jim/math-magicians',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
-const project4 = {
+const project3 = {
   name: "Space Travelers' Hub",
   description:
     'App for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
@@ -76,7 +65,7 @@ const project4 = {
   sourceLink: 'https://github.com/lu-jim/space-hub',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
-const project5 = {
+const project4 = {
   name: 'Recipes on Rails',
   description:
     'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
@@ -89,7 +78,7 @@ const project5 = {
   tags: ['Microverse', 'Full Stack Dev', '2022'],
 };
 
-const works = [project2, project3, project4, project5].reverse();
+const works = [project1, project2, project3, project4].reverse();
 
 // Setting up the Works section:
 // Helper functions
