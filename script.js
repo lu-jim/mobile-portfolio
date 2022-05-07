@@ -71,7 +71,7 @@ const project4 = {
     'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
   content:
     'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Built With    \n -Ruby    \n -Rails    \n -Tailwind    \n -Postgres',
-  featuredImage: './images/recipes.png',
+  featuredImage: './images/recipe-thumb.png',
   technologies: ['Ruby', 'Rails', 'Heroku', 'Postgres', 'Tailwind'],
   liveVersionLink: 'https://young-reaches-04527.herokuapp.com/',
   sourceLink: 'https://github.com/lu-jim/recipes-on-rails',
