@@ -89,7 +89,7 @@ const project5 = {
   tags: ['Microverse', 'Full Stack Dev', '2022'],
 };
 
-const works = [project1, project2, project3, project4, project5].reverse();
+const works = [project2, project3, project4, project5].reverse();
 
 // Setting up the Works section:
 // Helper functions
