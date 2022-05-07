@@ -76,8 +76,20 @@ const project4 = {
   sourceLink: 'https://github.com/lu-jim/space-hub',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
+const project5 = {
+  name: 'Recipes on Rails',
+  description:
+    'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+  content:
+    'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Built With    \n -Ruby    \n -Rails    \n -Tailwind    \n -Postgres',
+  featuredImage: './images/space-th-sq.png',
+  technologies: ['Ruby', 'Rails', 'Heroku', 'Postgres', 'Tailwind'],
+  liveVersionLink: 'https://young-reaches-04527.herokuapp.com/',
+  sourceLink: 'https://github.com/lu-jim/recipes-on-rails',
+  tags: ['Microverse', 'Full Stack Dev', '2022'],
+};
 
-const works = [project1, project2, project3, project4];
+const works = [project1, project2, project3, project4, project5].reverse;
 
 // Setting up the Works section:
 // Helper functions
@@ -274,12 +286,8 @@ document.addEventListener(
   (event) => {
     // If user either clicks X button OR clicks outside
     //  the modal window, then close modal by calling closeModal()
-    if (
-      event.target === modal0
-      || event.target === modal1
-      || event.target === modal2
-      || event.target === modal3
-    ) {
+    if (event.target === modal0
+      || event.target === modal1 || event.target === modal2 || event.target === modal3) {
       closeModal0();
       closeModal1();
       closeModal2();
