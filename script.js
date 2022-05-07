@@ -189,11 +189,11 @@ function createModal(project, modalId) {
   });
   modalTextRight.appendChild(createNode('hr', 'modal-divider'));
   const modalButtons = modalTextRight.appendChild(createNode('div', 'modal-buttons'));
-  const imageButton1Content = "See live <img class= 'image-button' src='./resources/seelive.svg'>";
+  const imageButton1Content = `<a href="${project.liveVersionLink}" target="_blank">See live</a> <img class= 'image-button' src='./resources/seelive.svg'>`;
   createButton(imageButton1Content, modalButtons, 'see-project modal-button-inside');
   const imageButton2 = createNode('a', 'modal-button-image');
   imageButton2.src = './resources/gitblue.svg';
-  const imageButton2Content = `<a href="${project.sourceLink}">See Source</a> <img class= 'image-button' src='./resources/gitblue.svg'>`;
+  const imageButton2Content = `<a href="${project.sourceLink}" target="_blank">See Source</a> <img class= 'image-button' src='./resources/gitblue.svg'>`;
   createButton(imageButton2Content, modalButtons, 'see-project modal-button-inside');
   document.body.appendChild(newModal);
 }
