@@ -16,7 +16,7 @@ Additional description about the project and its features.
 - Javascript
 
 ## Live Demo
-[Live Demo Link](https://lu-jim.github.io/mobile-portfolio/)
+[Live Demo Link](https://lujim.netlify.app)
 
 ## Getting Started
 
