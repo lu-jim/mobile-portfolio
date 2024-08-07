@@ -61,7 +61,7 @@ const project3 = {
     'App for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Built With    \n -Javascript    \n -React    \n -Redux    \n -Bootstrap',
   featuredImage: './images/space-th-sq.png',
   technologies: ['Javascript', 'Heroku', 'React', 'Redux'],
-  liveVersionLink: 'https://space-travel-hub.herokuapp.com',
+  liveVersionLink: 'https://cheerful-chimera-e6e9d9.netlify.app',
   sourceLink: 'https://github.com/lu-jim/space-hub',
   tags: ['Microverse', 'Full Stack Dev', '2021'],
 };
@@ -73,7 +73,7 @@ const project4 = {
     'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Built With    \n -Ruby    \n -Rails    \n -Tailwind    \n -Postgres',
   featuredImage: './images/recipe-thumb.png',
   technologies: ['Ruby', 'Rails', 'Heroku', 'Postgres', 'Tailwind'],
-  liveVersionLink: 'https://young-reaches-04527.herokuapp.com/',
+  liveVersionLink: 'https://recipes-on-rails.fly.dev/',
   sourceLink: 'https://github.com/lu-jim/recipes-on-rails',
   tags: ['Microverse', 'Full Stack Dev', '2022'],
 };
